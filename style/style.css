@@ -3,4 +3,6 @@
 @theme {
   --background-image-uber: url("../src/assets/bguber.webp");
   --background-image-city: url("../src/assets/bg-city.webp");
+
+  --breakpoint-xs: 400px;
 }

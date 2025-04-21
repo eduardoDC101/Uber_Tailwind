@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uber</title>
+    <meta
+      name="description"
+      content="Uber oferece uma forma rápida, segura e
+    conveniente de se locomover pela cidade. Com motoristas parceiros ao seu
+    alcance, aproveite viagens de qualidade com preços acessíveis, na palma da
+    sua mão"
+    />
+    <link rel="stylesheet" href="../style/output.css" />
+    <link rel="icon" href="./assets/icone.png" />
+  </head>
+  <body>
+    <header class="w-full bg-black text-white h-16 px-4">
+      <div
+        class="w-full h-16 max-w-7xl mx-auto flex items-center justify-between"
+      >
+        <div class="flex items-center justify-start">
+          <a href="#"> <h1 class="text-2xl mr-7">Uber</h1></a>
+          <nav class="hidden lg:block">
+            <ul class="flex font-medium text-sm gap-4">
+              <li
+                class="hover:cursor-pointer hover:bg-gray-300/20 rounded-full py-2 px-4 duration-200"
+              >
+                <a href="#">Viajar</a>
+              </li>
+              <li
+                class="hover:cursor-pointer hover:bg-gray-300/20 rounded-full py-2 px-4 duration-200"
+              >
+                <a href="#">Dirigir</a>
+              </li>
+              <li
+                class="hover:cursor-pointer hover:bg-gray-300/20 rounded-full py-2 px-4 duration-200"
+              >
+                <a href="#">Empresa</a>
+              </li>
+              <li
+                class="hover:cursor-pointer hover:bg-gray-300/20 rounded-full py-2 px-4 duration-200"
+              >
+                <a href="#">Sobre</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <ul class="flex gap-2 xs:gap-4 font-medium text-sm">
+            <li
+              class="hidden lg:block hover:cursor-pointer hover:bg-gray-300/20 rounded-full py-2 px-4 duration-200"
+            >
+              <i></i>
+              <a href="#">PT-BR</a>
+            </li>
+            <li
+              class="hidden lg:block hover:cursor-pointer hover:bg-gray-300/20 rounded-full py-2 px-4 duration-200"
+            >
+              <a href="#">Ajuda</a>
+            </li>
+            <li
+              class="hover:cursor-pointer hover:bg-gray-300/20 rounded-full py-2 px-2 xs:px-4 duration-200"
+            >
+              <a href="#">Fazer login</a>
+            </li>
+            <li
+              class="hover:cursor-pointer bg-white text-black hover:bg-white/80 rounded-full py-2 px-2 xs:px-4 duration-200"
+            >
+              <a href="#">Cadastre-se</a>
+            </li>
+            <li><i></i></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="w-full">
+      <div class="w-full max-w-6xl mx-auto">
+        <section
+          class="flex justify-between bg-black text-white px-6 py-16 lg:bg-white lg:text-black gap-10"
+        >
+          <div>
+            <div class="max-w-xl">
+              <h2 class="text-4xl font-bold lg:text-6xl lg:font-medium">
+                Vá a qualquer lugar com o app da Uber
+              </h2>
+              <p class="my-4 lg:hidden">
+                Solicite uma viagem, entre no carro e relaxe.
+              </p>
+              <form class="flex flex-col gap-3 mb-5 lg:mt-10">
+                <input
+                  type="text"
+                  placeholder="Informe o Local"
+                  class="bg-white outline-0 text-black rounded-md w-full lg:max-w-4/5 py-2 px-4 lg:bg-gray-100"
+                />
+                <input type="text" placeholder="Informar o Destino"
+                class="bg-white outline-0 text-black rounded-md w-full py-2 px-4
+                lg:max-w-4/5 lg:bg-gray-100"" />
+                <button
+                  type="button"
+                  class="bg-white w-2/5 text-black cursor-pointer font-medium rounded-md py-3 mt-3 lg:bg-black lg:text-white"
+                >
+                  Ver preços
+                </button>
+              </form>
+              <a href="#" class="border-b-[1.5px]"
+                >Faça login para ver sua atividade recente</a
+              >
+            </div>
+            <img
+              src="./assets/uber2/chegandoAeroport.webp"
+              alt="Chegando no Aeroporto"
+              class="lg:hidden mt-6"
+            />
+          </div>
+          <div class="hidden lg:block">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8870.637501352863!2d-49.366684988397445!3d-20.80570015291407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bc52af39c4437f%3A0x6c575bb69e10af94!2sJardim%20Fuscaldo%2C%20S%C3%A3o%20Jos%C3%A9%20do%20Rio%20Preto%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1745264097661!5m2!1spt-BR!2sbr"
+              width="550"
+              height="500"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              title="Mapa"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="rounded-xl"
+            ></iframe>
+          </div>
+        </section>
+
+        <section class="w-full py-8 px-4">
+          <h2 class="font-medium text-3xl mb-6">Sugestões</h2>
+          <div class="flex flex-col gap-4 md:flex-row">
+            <article
+              class="bg-gray-200/65 rounded-lg p-4 flex items-center justify-between gap-3 text-sm"
+            >
+              <div class="flex-2">
+                <h3 class="font-medium text-base mb-2">Viagem</h3>
+                <p class="mb-2">
+                  Vá a qualquer lugar com o app da Uber. Solicite uma viagem,
+                  entre no carro e relaxe.
+                </p>
+                <button
+                  class="bg-white px-4 py-2 rounded-full font-medium text-base mt-2 duration-200 hover:bg-gray-300 cursor-pointer"
+                >
+                  Informações
+                </button>
+              </div>
+              <div class="flex-1">
+                <img src="./assets/uber2/carro.png" alt="Foto Carro" />
+              </div>
+            </article>
+            <article
+              class="bg-gray-200/65 rounded-lg p-4 flex items-center justify-between gap-3 text-sm"
+            >
+              <div class="flex-2">
+                <h3 class="font-medium text-base mb-2">Reserve</h3>
+                <p class="mb-2">
+                  Reserve sua viagem com antecedência e fique tranquilo no dia
+                  da viagem.
+                </p>
+                <button
+                  class="bg-white px-4 py-2 rounded-full font-medium text-base mt-2 duration-200 hover:bg-gray-300 cursor-pointer"
+                >
+                  Informações
+                </button>
+              </div>
+              <div class="flex-1">
+                <img
+                  src="./assets/uber2/calendario.png"
+                  alt="Foto Calendario"
+                />
+              </div>
+            </article>
+            <article
+              class="bg-gray-200/65 rounded-lg p-4 flex items-center justify-between gap-3 text-sm"
+            >
+              <div class="flex-2">
+                <h3 class="font-medium text-base mb-2">Flash</h3>
+                <p class="mb-2">
+                  A Uber torna fácil a entrega de itens no mesmo dia.
+                </p>
+                <button
+                  class="bg-white px-4 py-2 rounded-full font-medium text-base mt-2 duration-200 hover:bg-gray-300 cursor-pointer"
+                >
+                  Informações
+                </button>
+              </div>
+              <div class="flex-1">
+                <img src="./assets/uber2/caracaixa.png" alt="Foto Homem" />
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
