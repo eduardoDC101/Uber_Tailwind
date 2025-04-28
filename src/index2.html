@@ -228,43 +228,153 @@
           </div>
         </section>
 
-        <section class="w-full py-4 px-5">
+        <section class="w-full py-4 px-5 mb-10">
           <h2 class="font-medium text-3xl mb-5">Planejar para mais tarde</h2>
-          <div class="flex flex-col-reverse gap-5 md:flex-row md:items-center">
+          <div
+            class="flex flex-col-reverse gap-5 md:flex-row-reverse md:items-start"
+          >
             <div
-              class="flex flex-col items-start max-w-11/12 gap-4 md:flex-1"
-            ></div>
-            <div>
-              <div
-                class="md:flex-1 bg-azulfundo rounded-xl flex flex-col justify-center h-96 px-5"
-              >
-                <h2 class="font-medium text-3xl mb-7">
-                  Viaje com tranquilidade com o Uber Reserve
-                </h2>
-                <p class="font-medium text-xl mb-3">
-                  Escolha a data e o horário
-                </p>
-                <form
-                  class="w-full flex flex-row justify-between items-center gap-3"
+              class="border-[0.1px] border-black/15 rounded-xl p-4 flex flex-col gap-5 md:flex-1"
+            >
+              <h2 class="font-medium text-2xl">Vantagens</h2>
+              <div class="flex flex-col gap-4">
+                <article
+                  class="flex items-center justify-center border-b-[1px] border-black/15 pb-5"
                 >
-                  <input
-                    type="date"
-                    class="bg-white flex-1 rounded-md py-3 px-4"
-                  />
-                  <select
-                    name="Tempo"
-                    class="flex-1 bg-white rounded-md py-3 px-4"
+                  <i
+                    class="fa-solid fa-calendar text-xl flex-1 text-center"
+                  ></i>
+                  <p class="flex-3">
+                    Escolha o horário exato de partida com até 90 dias de
+                    antecedência.
+                  </p>
+                </article>
+                <article
+                  class="flex items-center justify-center border-b-[1px] border-black/15 pb-5"
+                >
+                  <i class="fa-solid fa-clock text-xl flex-1 text-center"></i>
+                  <p class="flex-3">
+                    Tempo de espera extra incluído para encontrar seu motorista.
+                  </p>
+                </article>
+                <article class="flex items-center justify-center">
+                  <i
+                    class="fa-solid fa-credit-card text-xl flex-1 text-center"
+                  ></i>
+                  <p class="flex-3">
+                    Cancele sem custo com até 60 minutos de antecedência.
+                  </p>
+                </article>
+              </div>
+              <a
+                href="#"
+                class="underline underline-offset-4 text-black/50 hover:text-black/80 duration-300"
+                >Consulte os termos</a
+              >
+            </div>
+            <div class="md:flex-2">
+              <div
+                class="md:flex-1 bg-azulfundo rounded-xl flex flex-col justify-center h-96 px-5 relative overflow-hidden"
+              >
+                <div class="w-full md:w-2/3 z-10">
+                  <h2 class="font-medium text-3xl mb-7">
+                    Viaje com tranquilidade com o Uber Reserve
+                  </h2>
+                  <p class="font-medium text-xl mb-3">
+                    Escolha a data e o horário
+                  </p>
+                  <form
+                    class="w-full flex flex-row justify-between items-center gap-3"
                   >
-                    <option value="Tempo">Tempo</option>
-                  </select>
-                </form>
+                    <input
+                      type="date"
+                      class="bg-white flex-1 rounded-md py-3 px-4"
+                    />
+                    <select
+                      name="Tempo"
+                      class="flex-1 bg-white rounded-md py-3 px-4"
+                    >
+                      <option value="Tempo">Tempo</option>
+                    </select>
+                  </form>
+                  <button
+                    type="button"
+                    class="bg-black text-white px-5 py-3 rounded-md mt-5 w-full hover:bg-black/80 duration-200 cursor-pointer"
+                  >
+                    Avançar
+                  </button>
+                </div>
+                <img
+                  src="./assets/uber2/relogio.webp"
+                  alt="relogio"
+                  class="hidden md:block absolute right-0 top-5 z-0 opacity-50 lg:opacity-90"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="w-full py-4 px-5 my-20">
+          <div
+            class="md:flex md:flex-row-reverse items-center justify-between gap-20"
+          >
+            <div class="md:flex-1">
+              <h2 class="font-medium text-3xl">
+                Dirija quando quiser e ganhe de acordo com suas necessidades
+              </h2>
+              <p class="text-md my-3.5">
+                Ganhe dinheiro com entregas e viagens no horário que você
+                definir. Você pode usar seu próprio carro ou escolher um carro
+                alugado por meio do app da Uber.
+              </p>
+              <div class="flex flex-col gap-4 mb-4 md:flex-row md:items-end">
                 <button
                   type="button"
-                  class="bg-black text-white px-5 py-3 rounded-md mt-5"
+                  class="bg-black text-white px-5 py-3 rounded-md mt-5 w-1/3 font-medium hover:bg-black/80 duration-200 cursor-pointer"
                 >
-                  Avançar
+                  Começar
                 </button>
+                <a
+                  href="#"
+                  class="underline underline-offset-4 text-black/50 hover:text-black/80 duration-300"
+                >
+                  Já tem uma conta? Fazer login</a
+                >
               </div>
+            </div>
+            <div class="md:flex-1">
+              <img src="./assets/uber2/img1.webp" alt="Motorista uber" />
+            </div>
+          </div>
+        </section>
+
+        <section class="w-full py-4 px-5">
+          <div class="md:flex md:flex-row items-center justify-between gap-20">
+            <div class="md:flex-1">
+              <h2 class="font-medium text-3xl">
+                A plataforma Uber que você conhece, reinventada para empresas
+              </h2>
+              <p class="text-md my-3.5">
+                Uber para Empresas é uma plataforma global de gestão de viagens,
+                refeições e entregas locais para empresas de todos os portes.
+              </p>
+              <div class="flex flex-col gap-4 mb-4 md:flex-row md:items-end">
+                <button
+                  type="button"
+                  class="bg-black text-white px-5 py-3 rounded-md mt-5 w-1/3 font-medium hover:bg-black/80 duration-200 cursor-pointer"
+                >
+                  Começar
+                </button>
+                <a
+                  href="#"
+                  class="underline underline-offset-4 text-black/50 hover:text-black/80 duration-300"
+                >
+                  Confira nossas soluções</a
+                >
+              </div>
+            </div>
+            <div class="md:flex-1">
+              <img src="./assets/uber2/img2.webp" alt="Motorista uber" />
             </div>
           </div>
         </section>
